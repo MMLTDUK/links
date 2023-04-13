@@ -1,0 +1,27 @@
+theme = "lynx"
+title = "Links | Mortgage Market"
+
+enableEmoji = true
+disableKinds = ["taxonomy", "term"]
+
+[author]
+  name = "MM Links"
+  headline = "Buy Your Dream Home Today!"
+  image = "https://mortgagemarket.uk.com/favicon.ico"
+  links = [
+    { link = { href = "https://mortgagemarket.uk.com", text = "Main Site", icon = "link" } },
+    { link = { href = "https://apps.apple.com/us/app/mortgage-market/id1643209984", text = "IOS App", icon = "apple" } },
+    { link = { href = "https://play.google.com/store/apps/details?id=com.mortgageLtd.mortgage", text = "Android App", icon = "android" } },
+    { link = { href = "https://blog.mortgagemarket.uk.com", text = "Blog", icon = "" } },
+    { twitter = "https://twitter.com/jpanther" },
+    { instagram = "https://www.instagram.com/no1mortgagemarketltd/"},
+    { linkedin = "https://www.linkedin.com/company/no1mortgagemarketltd/"},
+    { email = "mailto:info@mortgagemarket.uk.com"},
+    ]
+
+[markup.highlight]
+  noClasses = false
+
+[markup.goldmark]
+[markup.goldmark.renderer]
+  unsafe = true

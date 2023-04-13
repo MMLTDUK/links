@@ -1,0 +1,44 @@
+baseURL = "/"
+
+languageCode = "en-us"
+DefaultContentLanguage = "en"
+title = "Mortgage Market Docs"
+theme = "docdock"
+pygmentsCodeFences = true
+pygmentsStyle = "monokailight"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir= false
+enableMissingTranslationPlaceholders = false
+
+[markup]
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+editURL = "https://github.com/MMLTDUK/docs/"
+showVisitedLinks = true # default is false
+themeStyle = "flex" # "original" or "flex" # default "flex"
+themeVariant = "blue" # choose theme variant "green", "gold" , "gray", "blue" (default)
+ordersectionsby = "weight" # ordersectionsby = "title"
+disableHomeIcon = false # default is false
+disableSearch = false # default is false
+disableNavChevron = false # set true to hide next/prev chevron, default is false
+highlightClientSide = false # set true to use highlight.pack.js instead of the default hugo chroma highlighter
+menushortcutsnewtab = false # set true to open shortcuts links to a new tab/window
+enableGitInfo = true
+
+[outputs]
+home = [ "HTML", "RSS", "JSON"]
+
+[[menu.shortcuts]]
+pre = "<h3>More</h3>"
+name = "<i class='fa fa-phone'></i> <label>Support</label>"
+identifier = "ds"
+url = "mailto:mansoorb@mortgagemarket.uk.com"
+weight = 30
+
+[[menu.shortcuts]]
+name = "<i class='fa fa-github'></i> <label>Github</label>"
+url = "https://github.com/MMLTDUK"
+weight = 20
