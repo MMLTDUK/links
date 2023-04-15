@@ -11,8 +11,7 @@ disableKinds = ["taxonomy", "term"]
   image = "https://mortgagemarket.uk.com/favicon.ico"
   links = [
     { link = { href = "https://mortgagemarket.uk.com", text = "Main Site", icon = "link" } },
-    { link = { href = "https://apps.apple.com/us/app/mortgage-market/id1643209984", text = "IOS App", icon = "apple" } },
-    { link = { href = "https://play.google.com/store/apps/details?id=com.mortgageLtd.mortgage", text = "Android App", icon = "android" } },
+    { link = { href = "https://mortgagemarket.uk.com/download", text = "Our App", icon = "download" } },
     { link = { href = "https://blog.mortgagemarket.uk.com", text = "Blog", icon = "" } },
     { twitter = "https://twitter.com/jpanther" },
     { instagram = "https://www.instagram.com/no1mortgagemarketltd/"},
